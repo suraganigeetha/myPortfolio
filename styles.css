@@ -1,0 +1,251 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+}
+
+
+nav {
+    background-color: #222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.title {
+    padding: 10px;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+nav ul {
+    list-style: none;
+    padding: 10px 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff6600;
+}
+
+#info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-content {
+    width: 60%;
+    text-align: center;
+}
+
+.image-container {
+    text-align: center;
+    width: 30%;
+}
+
+.header-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.header-content p {
+    font-size: 1.2em;
+}
+
+img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    border: 2px solid #cab8b8;
+}
+
+
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: #FDF0F0;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    background-color: #132043;
+    color: white;
+    padding: 0 10px;
+}
+
+i {
+    color: white;
+    font-size: 0.9em;
+    padding: 0 10px;
+}
+
+.date {
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+
+.education-entries,
+.experience-entries {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.education-entry,
+.experience-entry {
+    width: 45%;
+    height: 200px;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.education-entry h3,
+.experience-entry h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.education-entry p,
+.experience-entry p {
+    font-size: 1em;
+}
+
+.education-entry .date,
+.experience-entry .date {
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+
+#skills ul {
+    list-style: none;
+    padding: 0 1rem ;
+}
+
+#hobbies {
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#hobbies h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.hobby {
+    margin-bottom: 20px;
+}
+
+.hobby h3 {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+.hobby p {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+.hobbies-container {
+    padding: 0 15px;
+}
+
+#contact-form {
+    background-color: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contact h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+/* Style for the form elements */
+.form-container {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: white;
+}
+
